@@ -5,7 +5,10 @@
 
   <testsuite name="pageObjectModel.assertions.test"
     errors="0" failures="0" hostname="" id="" package="pageObjectModel" skipped="0"
-    tests="1" time="2.277" timestamp="">
+    tests="1" time="9.264" timestamp="">
+  
+    <testcase name="Should login using commands" classname="pageObjectModel.assertions.test" time="4.630" assertions="0">
+    </testcase>
   
 
   

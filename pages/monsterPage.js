@@ -11,6 +11,15 @@
 //   },
 // };
 
+let loginCommands = {
+  loginToApp: function(username, password) {
+    return this
+    .setValue("@usernameField", username)
+    .setValue("@passwordField", password)
+    .click("@loginButton")
+  }
+}
+
 module.exports = {
   url: "https://glitchitsystem.com/monster/",
   elements: {
@@ -28,6 +37,7 @@ module.exports = {
     usernameField: "#username",
     passwordField: "#password",
   },
+  commands: [loginCommands]
 };
 
 //using pages with sections

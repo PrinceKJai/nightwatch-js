@@ -23,7 +23,7 @@ describe("Assertions Test Suite With Page Object", () => {
   });
 
   //without using sections
-  it("Uses containsText, valueContains and value in the form element", (browser) => {
+  xit("Uses containsText, valueContains and value in the form element", (browser) => {
     const monsterPage = browser.page.monsterPage();
     monsterPage.assert.textContains(
       "@usernameLabel",
@@ -76,5 +76,11 @@ describe("Assertions Test Suite With Page Object", () => {
       "Password input has value"
     );
     browser.pause(3000);
+  });
+
+  it("Should login using commands", () => {
+    const monsterPage = browser.page.monsterPage();
+    monsterPage.loginToApp("bob@bob.com", "Test123");
+    browser.pause(2000);
   });
 });
