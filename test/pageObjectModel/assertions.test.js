@@ -23,7 +23,7 @@ describe("Assertions Test Suite With Page Object", () => {
   });
 
   //without using sections
-  xit("Uses containsText, valueContains and value in the form element", (browser) => {
+  it("Uses containsText, valueContains and value in the form element", (browser) => {
     const monsterPage = browser.page.monsterPage();
     monsterPage.assert.textContains(
       "@usernameLabel",
