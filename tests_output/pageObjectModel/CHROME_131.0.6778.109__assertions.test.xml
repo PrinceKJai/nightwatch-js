@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="pageObjectModel.assertions.test"
+    errors="0" failures="0" hostname="" id="" package="pageObjectModel" skipped="0"
+    tests="1" time="11.57" timestamp="">
+  
+    <testcase name="Uses containsText, valueContains and value in the form element" classname="pageObjectModel.assertions.test" time="5.784" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

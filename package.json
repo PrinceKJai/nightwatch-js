@@ -1,0 +1,18 @@
+{
+  "name": "nightwatch-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --watch './test/**/*.js' --watch './test/**/*.ts' --exec 'npx nightwatch ./test/pageObjectModel/assertions.test.js' --ext js,ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.10.0",
+    "nightwatch": "^3.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
